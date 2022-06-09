@@ -9,7 +9,7 @@ public class UtilsX {
         if (numero < 2) {
             return numero;
         } else {
-            return fibonaciRecur(numero - 1) + fibonaciRecur(numero - 2);
+            return fibonaciRecur(numero - 1) + fibonaciRecur(numero - 2);git
         }
     }
 
@@ -20,10 +20,4 @@ public class UtilsX {
     public TableModel reporData() {
         return null;
     }
-}Ing.Sistemas
-
-Creando Una
-Clase de
-GUI
-import javax.swing.JFr
-
+}
