@@ -9,7 +9,7 @@ public class UtilsX {
         if (numero < 2) {
             return numero;
         } else {
-            return fibonaciRecur(numero - 1) + fibonaciRecur(numero - 2);git
+            return fibonaciRecur(numero - 1) + fibonaciRecur(numero - 2);
         }
     }
 
