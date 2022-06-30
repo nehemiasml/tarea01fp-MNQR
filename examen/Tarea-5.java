@@ -4,9 +4,9 @@ import java.lang.reflect.Array;
 import java.util.Scanner;
 
 /**
- * EjerciciosR
+ * Tarea-5
  */
-public class EjerciciosR {
+public class Tarea5 {
 
     public static void imprimirWhileN1_20() {
         int numInit=20;
