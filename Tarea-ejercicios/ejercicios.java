@@ -4,7 +4,7 @@ importar  Java . útil _ escáner ;
     Scanner  lt = nuevo  Scanner ( System . in );
 
 
-    public  void  transformada01 () {
+    public  void  transformadas1 () {
         sistema _ fuera _ println ( "Ingreso dimesion de Matriz:" );
          dimensión int = cs . siguienteInt ();
         sistema _ fuera _ println ( "Ingreso valor inicial:" );
@@ -20,41 +20,7 @@ importar  Java . útil _ escáner ;
         imprimirMatriz ( matriz );
     }
 
-    public  void  transformada05 () {
-        sistema _ fuera _ println ( "Ingrese dimension de Matriz:" );
-         dimensión int = lt . siguienteInt ();
-        sistema _ fuera _ println ( "Ingreso valor inicial:" );
-         valor int = lt . siguienteInt ();
-        String [][] matriz = new  String [ dimensión ] [ dimensión ];
-        for ( int  f = 0 ; f < matriz . longitud ; f ++) {
-            para ( int  c = 0 ; c <= f ; c ++) {
-                matriz [ f ][( dimensión - 1 ) - c ] = Cadena . valorDe ( valor );
-                valor ++;
-
-            }
-
-        }
-        ImprimirMatriz ( matriz );
-    }
-    public  void  transformada06 () {
-        sistema _ fuera _ println ( "Ingrese dimension de Matriz:" );
-         dimensión int = lt . siguienteInt ();
-        sistema _ fuera _ println ( "Ingreso valor inicial:" );
-         valor int = lt . siguienteInt ();
-        String [][] matriz = new  String [ dimensión ] [ dimensión ];
-        for ( int  f = 0 ; f < matriz . longitud ; f ++) {
-            para ( int  c = 0 ; c <= f ; c ++) {
-                matriz [ f ][ c ] = Cadena . valorDe ( valor );
-                valor ++;
-                
-            }
-            
-        }
-        imprimirMatriz ( matriz );
-        
-    }
-
-    public  void  transformada07 () {
+    public  void  transformadas7 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingrese la dimension de la Matriz:" );
          dimensión int = lt . siguienteInt ();
@@ -72,7 +38,7 @@ importar  Java . útil _ escáner ;
         imprimirMatriz ( matriz );
     }
     
-    public  void  transformada08 () {
+    public  void  transformada8 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingrese la dimension de la Matriz:" );
          dimensión int = lt . siguienteInt ();
@@ -91,7 +57,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada09 () {
+    public  void  transformadas9 () {
         sistema _ fuera _ println ( "Ingrese la dimension de la Matriz:" );
          dimensión int = lt . siguienteInt ();
         sistema _ fuera _ println ( "Ingrese el valor inicial:" );
@@ -109,7 +75,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada10 () {
+    public  void  transformadas10 () {
         sistema _ fuera _ println ( "Ingrese dimension de Matriz:" );
          dimensión int = lt . siguienteInt ();
         sistema _ fuera _ println ( "Ingreso valor inicial:" );
@@ -127,7 +93,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada11 () {
+    public  void  transformadas11 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingrese la dimension de la Matriz:" );
          dimensión int = lt . siguienteInt ();
@@ -146,7 +112,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada12 () {
+    public  void  transformadas12 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingrese la dimension de la Matriz:" );
          dimensión int = lt . siguienteInt ();
@@ -165,7 +131,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada13 () {
+    public  void  transformadas13 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingrese la dimension de la Matriz:" );
          dimensión int = lt . siguienteInt ();
@@ -183,7 +149,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada21 () {
+    public  void  transformadas21 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingrese la dimension de la Matriz:" );
          dimensión int = lt . siguienteInt ();
@@ -205,7 +171,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada22 () {
+    public  void  transformadas22 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingreso dimesion de Matriz:" );
          dimensión int = lt . siguienteInt ();
@@ -229,7 +195,7 @@ importar  Java . útil _ escáner ;
         imprimirMatriz ( matriz );
     }
 
-    public  void  transformada23 () {
+    public  void  transformadas23 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingreso dimesion de Matriz:" );
          dimensión int = lt . siguienteInt ();
@@ -254,7 +220,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada24 () {
+    public  void  transformadas24 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingreso dimesion de Matriz:" );
          dimensión int = lt . siguienteInt ();
@@ -279,7 +245,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada25 () {
+    public  void  transformadas25 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingreso dimesion de Matriz:" );
          dimensión int = lt . siguienteInt ();
@@ -304,7 +270,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada26 () {
+    public  void  transformadas26 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingreso dimesion de Matriz:" );
          dimensión int = lt . siguienteInt ();
@@ -329,7 +295,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada27 () {
+    public  void  transformadas27 () {
         sistema _ fuera _ println ( "Ingreso dimesion de Matriz:" );
          dimensión int = lt . siguienteInt ();
         sistema _ fuera _ println ( "Ingreso valor inicial:" );
@@ -352,7 +318,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada28 () {
+    public  void  transformadas28 () {
         sistema _ fuera _ println ( "Ingreso dimesion de Matriz:" );
          dimensión int = lt . siguienteInt ();
         sistema _ fuera _ println ( "Ingreso valor inicial:" );
@@ -375,7 +341,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada29 () {
+    public  void  transformadas29 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingreso dimesion de Matriz:" );
          dimensión int = lt . siguienteInt ();
@@ -407,7 +373,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada30 () {
+    public  void  transformadas30 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingreso dimesion de Matriz:" );
          dimensión int = lt . siguienteInt ();
@@ -439,7 +405,7 @@ importar  Java . útil _ escáner ;
         
     }
 
-    public  void  transformada31 () {
+    public  void  transformadas31 () {
         Cadena [][] matriz ;
         sistema _ fuera _ println ( "Ingreso dimesion de Matriz:" );
          dimensión int = lt . siguienteInt ();
